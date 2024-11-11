@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "ExcelSheetPractice.Api.Controllers.ExcelSheetController",
+    "Method": "SubmitExcelSheet",
+    "RelativePath": "SubmitExcelSheet",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExcelSheetPractice.Api.Controllers.ExcelSheetController",
+    "Method": "UpsertExcelData",
+    "RelativePath": "UpsertExcelData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ValidDataTable",
+        "Type": "System.Collections.Generic.List\u00601[[ExcelSheetPractice.Api.Controllers.ExcelData, ExcelSheetPractice.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
